@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Microsoft Yahei';
+    margin:0 auto;
+    border: 1px solid rgba(0,0,0,0);
+    width: 75vw;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#choice {
+    position: absolute;
+    margin-top: 2vh;
+    width: 75vw;
+}
+
+#choice table {
+    background-color: rgb(236, 251, 246);
+    width: 75vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+#choice span{
+    border-bottom-style: dashed;
+}
+
+#choice a:link{
+    color: rgb(23, 62, 141);
+}
+
+#choice a:visited{
+    color: rgb(23, 62, 141);
+}
+
+#choice a:hover{
+    color: rgba(23, 62, 141, 0.5);
+}
+
+#choice a:active{
+    color: rgba(23, 62, 141, 0.3);
+}
+
+#menu {
+    background-color: rgba(0,0,0,.05);
+    width: 10vw;
+    margin-top: 6vh;
+    padding-top: 0;
+    height: 93vh;
+    position: absolute;
+    font-family: 'consolas';
+    overflow: auto;
+}
+
+#menu dl{
+    margin-top: 1vh;
+}
+
+#menu dd a:link{
+    color: rgb(1, 79, 67);
+}
+
+#menu dd a:visited{
+    color: rgb(1, 79, 67);
+}
+
+#menu dd a:hover{
+    color: rgba(1, 79, 67, 0.5);
+}
+
+#menu dd a:active{
+    color: rgba(1, 79, 67, 0.3);
+}
+
+#menu dt{
+    margin-left: 1vw;
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu dt a:link{
+    color: rgba(0, 0, 0);
+}
+
+#menu dt a:visited{
+    color: rgba(0, 0, 0);
+}
+
+#menu dt a:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#menu dt a:active{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#menu dd{
+    margin-left: 2.5vw;
+    font-size: small;
+}
+
+#mainpart{
+    margin-left: 12vw;
+    margin-top: 6vh;
+    width: 62vw;
+    height: 93vh;
+    overflow: auto;
+}
+
+#mainpart button{
+    font-family: 'consolas', 'HeiTi';
+}
+
+#mainpart a.out:link{
+    color: rgb(35, 109, 83);
+}
+
+#mainpart a.out:visited{
+    color: rgb(35, 109, 83);
+}
+
+#mainpart a.out:hover{
+    color: rgb(35, 109, 83, 0.5);
+}
+
+#mainpart a.out:active{
+    color: rgb(35, 109, 83, 0.3);
+}
+
+#mainpart a:link{
+    color: rgb(45, 71, 138);
+}
+
+#mainpart a:visited{
+    color: rgb(126, 45, 138);
+}
+
+#mainpart a.static:visited{
+    color: rgb(45, 71, 138);
+}
+
+#mainpart a:hover{
+    color: rgba(57, 45, 138, 0.5);
+}
+
+#mainpart a:active{
+    color: rgba(45, 101, 138, 0.3);
+}
+
+#mainpart h2{
+    text-align: center;
+}
+
+p.tight{
+    margin-bottom: 0px;
+}
+
+#mainpart ul{
+    margin-top: 0px;
+}
